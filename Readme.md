@@ -17,3 +17,6 @@ cd /opt/bitnami/zookeeper/bin
 ls / gives all nodes
 
 ls brokers/ids
+get /brokers/ids/1001
+ls /brokers/topics/
+get /brokers/topics/topicName
