@@ -1,4 +1,4 @@
-Configure DNC of local to 8.8.8.8
+Configure DNS of local to 8.8.8.8
 
 docker-compose -f kafka-single-node.yml up -d 
  
