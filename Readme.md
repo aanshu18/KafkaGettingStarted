@@ -20,3 +20,10 @@ ls brokers/ids
 get /brokers/ids/1001
 ls /brokers/topics/
 get /brokers/topics/topicName
+
+
+
+//to check data stored in partition of a topic
+cd /bitnami/kafka/data
+//directories are created with partition ids
+ls topic-name*
