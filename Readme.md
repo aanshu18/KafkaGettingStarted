@@ -7,7 +7,13 @@ docker-compose -f kafka-single-node.yml down
 docker exec -it kafka-broker /bin/bash 
  
 docker exec -it zookeeper /bin/bash 
+
+//loggiing in zk client
 cd /opt/bitnami/zookeeper/bin
-.zkCli.sh  //loggiing in zk client
+.zkCli.sh  
 
 
+//kafka creates various zk nodes,  
+ls / gives all nodes
+
+ls brokers/ids
